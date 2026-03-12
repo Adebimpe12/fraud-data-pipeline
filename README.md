@@ -2,10 +2,10 @@ insurance-fraud-data-pipeline
 # Insurance Fraud Data Pipeline
 
 ## Objective
-Build a full end-to-end data pipeline for analyzing insurance fraud using a 21M row synthetic dataset.
+Build a full end-to-end data pipeline for analyzing insurance fraud using a 21M row synthetic dataset. This project demonstrates cloud-based data engineering workflows, transformations, and dashboard visualization.
 
 ## Architecture
-Dataset -> Kestra -> GCS -> BigQuery -> dbt -> Dashboard
+Dataset (21M rows) -> Kestra -> GCS -> BigQuery -> dbt -> Dashboard
 
 ## Tools
 - Docker
@@ -26,4 +26,9 @@ Dataset -> Kestra -> GCS -> BigQuery -> dbt -> Dashboard
 5. Build a dashboard with 2 tiles:
    - Fraud by transaction type
    - Fraud over time
-  
+
+Dataset source & info: synthetic Cifer 21M dataset (https://huggingface.co/datasets/CiferAI/Cifer-Fraud-Detection-Dataset-AF)
+
+Dashboard description: two tiles
+Tile 1: Fraud by transaction type
+Tile 2: Fraud over time
