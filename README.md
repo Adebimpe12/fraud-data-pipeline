@@ -1,7 +1,7 @@
-# Insurance Fraud Analytics Data Pipeline
+# Fraud Analytics Data Pipeline
 
 ## 🎯 Objective
-Build a full end-to-end data pipeline to analyze insurance/financial fraud transactions using a large-scale synthetic dataset (~21M rows). This project demonstrates cloud-based data engineering workflows, transformations and dashboard visualization.
+Build a full end-to-end data pipeline to analyze financial fraud transactions using a large-scale synthetic dataset (~21M rows). This project demonstrates cloud-based data engineering workflows, transformations and dashboard visualization.
 
 ## Architecture
 Synthetic Fraud Dataset (21M rows) 
@@ -104,8 +104,8 @@ Dataset source & info: synthetic Cifer 21M dataset (https://huggingface.co/datas
 1. **Clone the repo**
    
 ```bash
-git clone https://github.com/<your-username>/insurance-fraud-data-pipeline.git
-cd insurance-fraud-data-pipeline
+git clone https://github.com/<your-username>/fraud-data-pipeline.git
+cd fraud-data-pipeline
 ```
 
 2. **Run Terraform**
@@ -155,5 +155,5 @@ Reproducible using Docker, Terraform, and Kestra.
 
 **References**
 
-Cifer-Fraud-Detection-Dataset-AF (Hugging Face)
-Zoomcamp 2023 DE Capstone Guidelines
+Cifer-Fraud-Detection-Dataset-AF (https://huggingface.co/datasets/CiferAI/Cifer-Fraud-Detection-Dataset-AF)
+Zoomcamp 2026 DE Capstone Guidelines
