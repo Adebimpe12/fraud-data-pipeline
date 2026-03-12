@@ -1,4 +1,4 @@
-# Fraud Analytics Data Pipeline
+# Financial Fraud Analytics Pipeline
 
 ## 🎯 Objective
 Build a full end-to-end data pipeline to analyze financial fraud transactions using a large-scale synthetic dataset (~21M rows). This project demonstrates cloud-based data engineering workflows, transformations and dashboard visualization.
